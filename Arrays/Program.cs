@@ -14,6 +14,13 @@ namespace Arrays
             names[1] = "Yvettes";
             names[2] = "Pitshou";
             names[3] = "Ida";
+
+            // looping through the names
+            for (int i = 0; i < names.Length; i++)
+            {
+                // output the item at index position i
+                Console.WriteLine(names[i]);
+            }
         }
     }
 }
